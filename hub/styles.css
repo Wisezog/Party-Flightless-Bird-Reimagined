@@ -12,10 +12,31 @@ body{
 }
 
 .hub-wrapper{
-    flex: 1;
+    flex: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main{
+    margin: 0px auto;
+    width: 1250px;
+    height: 1050px;
+
+    /*Image from hackathon project drawn by James Hart*/
+    background-image: url("./img/hub-background.png");
+    animation: scroll-background 5s linear infinite;
+    box-shadow: 0 2px 10px black;
+    position: relative;
+    z-index: -2;
+}
+
+@keyframes scroll-background {
+    from{
+        background-position-y: 0px;
+    }to{
+        background-position-y: 533px;
+    }
 }
 
 header{
