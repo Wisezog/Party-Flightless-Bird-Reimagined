@@ -2,7 +2,7 @@ body{
     height: 100%;
     overflow: hidden;
     color: purple;
-    background-color: black;
+    background-color: rgb(33, 33, 33);
 }
 
 .wrap{
